@@ -8,7 +8,7 @@ def numberCleaner(dirtyNumber):
     #remove all non numeric characters
     numericString = ''.join(character for character in spacelessString if character.isdigit())
 
-    #check if first character is a zero0
+    #check if first character is a zero
     if numericString[0] != '0':
         numericString = '0' + numericString
     #if length is 10, throw exception else return number    
